@@ -13,5 +13,18 @@
   #adviceNo{color: aqua; font-size: 15px; font-family: shw; text-transform: capitalize;}
   #advice{color: whitesmoke; font-size: 25px; font-family: jim; width: 80%;margin-top: 100px;}
   #foot{position: fixed;left: 0;bottom: 0;width: 100%;}
+  img.mobile{ display: none;}
   .circ{width: 40px;height: 40px; border-radius: 100%;background-color: aqua;align-items: center;display: flex;justify-content: space-around;
   position: fixed;top: 66%; left: 49%;}
+@media(max-width:560px){
+    .container{
+        width: 300px;
+    }
+    img.desk{
+        display: none;
+    }
+    img.mobile{
+        display: block;
+    }
+    
+}
