@@ -1,0 +1,17 @@
+@font-face {
+    font-family: jim;
+    src: url(./Sevillana-Regular.ttf);
+  }
+  @font-face {
+    font-family: shw;
+    src: url(./Roboto-Italic.ttf);
+  }
+  body{background-color: rgb(6, 1, 26);}
+  .attribution { font-size: 15px; text-align: center; color: white;}
+  .attribution a { color: hsl(228, 45%, 44%); }
+  .container{width: 500px; height: 400px; background-color: rgb(3, 14, 65); border-radius: 30px; margin-top: 80px; padding: 30px; }
+  #adviceNo{color: aqua; font-size: 15px; font-family: shw; text-transform: capitalize;}
+  #advice{color: whitesmoke; font-size: 25px; font-family: jim; width: 80%;margin-top: 100px;}
+  #foot{position: fixed;left: 0;bottom: 0;width: 100%;}
+  .circ{width: 40px;height: 40px; border-radius: 100%;background-color: aqua;align-items: center;display: flex;justify-content: space-around;
+  position: fixed;top: 66%; left: 49%;}
